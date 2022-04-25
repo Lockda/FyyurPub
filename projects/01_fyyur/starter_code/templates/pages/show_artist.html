@@ -37,6 +37,7 @@
 		<p class="not-seeking">
 			<i class="fas fa-moon"></i> Not currently seeking performance venues
 		</p>
+		<a href="/artists/{{artist.id}}/edit"><button class="btn btn-primary btn-lg">Edit Artist</button></a>
 		{% endif %}
 	</div>
 	<div class="col-sm-6">
@@ -71,8 +72,6 @@
 		{% endfor %}
 	</div>
 </section>
-
-<a href="/artists/{{ artist.id }}/edit"><button class="btn btn-primary btn-lg">Edit</button></a>
 
 {% endblock %}
 
